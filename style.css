@@ -1,0 +1,54 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+  margin: 2em;
+  width: 3150px;
+}
+
+h1 {
+  font-style: italic;
+  color: #373fff;
+}
+
+#myDiv {
+      margin-bottom: 10px;
+      /*height:630px;
+height:9040px;
+  width: 28px;
+  
+  width: 0px;
+  height:10px;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      align-items: center;*/
+      }
+
+.containerDiv {
+ display: inline-block; 
+  height:516px;
+  width: 516px;
+}
+
+.bigSquares {
+        height:515px;
+        width: 515px;
+        //border: 1px solid black;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      align-items: center;
+  position: absolute;
+      }
+
+
+.miniSquares {
+        border: 1px solid white;
+        width: 8px;
+        height: 8px;
+        /*font-size: 8px;
+        text-align: center;
+  vertical-align: middle;
+  line-height: 28px;*/
+      }
